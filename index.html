@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>*
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
 </head>
 
@@ -25,25 +25,25 @@
             <div class="estatistica">
                 <p class="estatistica-titulo">Força</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">768</p>
+                    <p class="estatistica-numero" data-estatisticas="forca">768</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Poder</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">630</p>
+                    <p class="estatistica-numero" data-estatisticas="poder">630</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Energia</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">289</p>
+                    <p class="estatistica-numero" data-estatisticas="energia">289</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Velocidade</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">597</p>
+                    <p class="estatistica-numero" data-estatisticas="velocidade">597</p>
                 </div>
             </div>
         </section>
@@ -54,45 +54,45 @@
                     <div class="peca">
                         <label for="" class="peca-titulo">Braços</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste subtrair">-</buttom>
-                            <input type="text" class="controle-contador braco" value="00">
-                            <buttom class="controle-ajuste somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-objetos="bracos">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-objetos="bracos">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Blindagem</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-objetos="blindagem">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-objetos="blindagem">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Núcleos</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-objetos="nucleos">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-objetos="nucleos">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Pernas</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-objetos="pernas">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-objetos="pernas">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Foguetes</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-objetos="foguetes">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-objetos="foguetes">+</buttom>
                         </div>
                     </div>
                 </div>
