@@ -1,6 +1,6 @@
 const BtnCor = document.querySelector('[data-BtnCor]')
 
-let contador = 0
+let contador = 1
 
 let imagens = [
     "../img/robotron.png",
